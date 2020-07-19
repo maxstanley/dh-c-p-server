@@ -64,5 +64,6 @@ typedef struct {
 } dhcp_message;
 
 void print_dhcp_packet(dhcp_message packet, struct sockaddr_in client);
+char * mac_string(u_int8_t * mac);
 
 #endif
